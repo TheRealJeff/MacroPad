@@ -2598,7 +2598,7 @@
     (property "Sheetname" "")
     (path "/ba0fa30d-0c66-49d7-9010-88f589e5a62d")
     (attr smd)
-    (fp_text reference "USB1" (at -6.82625 4.712) (layer "B.SilkS")
+    (fp_text reference "USB1" (at 7.14375 4.712) (layer "B.SilkS")
         (effects (font (size 1 1) (thickness 0.153)) (justify mirror))
       (tstamp da5cddc5-5dd8-4e9c-8456-7f5f0fd600c1)
     )
@@ -3514,6 +3514,9 @@
     (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp dcd460dc-2cbc-47fb-9318-6a2031d2d27d))
   (gr_line (start 135.73125 39.6875) (end 135.73125 139.7)
     (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp fe27d2ac-edf7-4e08-9e16-c2733438e895))
+  (gr_text "Hamel Electronics\nDesigned by Jeffrey Hamel" (at 157.988 43.307) (layer "B.SilkS") (tstamp b48d7abc-4585-4213-a5a1-6bada56f3a3f)
+    (effects (font (size 1.2 1) (thickness 0.2)) (justify left bottom mirror))
+  )
 
   (segment (start 163.957 60.198) (end 163.703 60.198) (width 0.254) (layer "F.Cu") (net 1) (tstamp 2e814624-63fb-42d6-bb8d-57a9a3cb88d6))
   (segment (start 170.307 62.738) (end 174.498 62.738) (width 0.381) (layer "F.Cu") (net 1) (tstamp 3df0acaf-e24c-49ba-be7e-3ec8fb4c2c9e))

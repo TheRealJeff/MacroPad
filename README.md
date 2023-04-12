@@ -14,15 +14,11 @@ The keyboard has a basic enclosure designed to mainly give it a flat support for
 
 ## Firmware
 QMK was used for the custom keymap (key switch layout).  Currently, the layout has the following keymap:
- ┌───┬───┬───┐
- │ESC│DEL│ 0 │
- ├───┼───┼───┤
- │ 7 │ 8 │ 9 │
- ├───┼───┼───┤
- │ 4 │ 5 │ 6 │
- ├───┼───┼───┤
- │ 1 │ 2 │ 3 │
- └───┴───┴───┘
+| ESC | DEL | 0 |
+|-----|-----|---|
+| 7   | 8   | 9 |
+| 4   | 5   | 6 |
+| 1   | 2   | 3 |
 
 ### Keyboard Programming
 Download QMK MSYS and QMK Toolbox. Open QMK MSYS and follow the on screen instructions to download the necessary repos and drivers.

@@ -1,8 +1,9 @@
 # MacroPad
 This page outlines the MacroPad V1 keyboard project. This keyboard is a custom made 4x3 (rxc) with hotswap MX style switches based on the ATMEGA32U4 MCU platform. It is powered by a built-in USB-C connector and uses a custom firmware designed and uploaded with QMK (QMK MSYS and QMK Toolbox). All the required files for PCB, Mech and Firmware are found here.
 
-- Mech: 3D folder
-- Firmware: Firmware folder
+- '\PCB': kicad, BOM, GERBERS files
+- '\3D': Mech design files
+- '\firmware': keymaps, configs and hex files
 
 ## PCB Design
 The PCB was fully designed with KiCAD 7, uses the keyswitch libraries from [ai03 Custom Keyboard](https://wiki.ai03.com/books/pcb-design) and is based on the design from [Masterzen's Blog](https://www.masterzen.fr/2020/05/03/designing-a-keyboard-part-1/).
